@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -15,16 +15,16 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Switch>
-          <div className="app">
-            <Route path='/' exact component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/coachingProgram' component={CoachingProgram} />
-            <Route path='/testimonials' component={Testimonials} />
-            <Route path='/sign-up' component={SignUp} />
-            <Route path='/questionnaire' component={UserForm} />
+        <div className="app">
+          <Routes>
+            <Route path='/' exact element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/coachingProgram' element={<CoachingProgram />} />
+            <Route path='/testimonials' element={<Testimonials />} />
+            <Route path='/sign-up' element={<SignUp />} />
+            <Route path='/questionnaire' element={<UserForm />} />
+          </Routes>
           </div>
-        </Switch>
         <Footer />
       </Router>
     </>
