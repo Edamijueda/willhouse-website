@@ -9,36 +9,32 @@ import {
 
 const CoachingProgram = () => {
   const [header] = React.useState({
-    mainHeader: "Coaching Program",
+    mainHeader: "Coaching Program ",
     subHeading: "My Services",
     text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting\
-    industry. Lorem Ipsum standard dummy text.",
+      "Empowering hearts and minds with truth, love, and wisdom. W. E. Smith is a dynamic author, playwright, speaker, and spiritual thinker, dedicated to dispelling myths, inspiring healing, and sharing transformative stories..",
   });
   const [state] = React.useState([
     {
       id: 1,
       icon: <FaGithub className="commonIcons" />,
-      heading: "Web Development",
+      heading: "Customize Spiritual Coaching",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-      industry. simply dummy",
+        "Through unique lens, Offers tailored seminars to help individuals explore spiritual truths.",
     },
     {
       id: 2,
       icon: <FaCamera className="commonIcons" />,
-      heading: "Photography",
+      heading: "Authors Workshop ",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Guides aspiring writers to craft impactful stories & uncover their creative voice." ,
     },
     {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
-      heading: "Web Design",
+      heading: "Public Speaker/Counselor",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Talks that foster understanding on topics like relationships, and personal healing.",
     },
   ]);
   return (

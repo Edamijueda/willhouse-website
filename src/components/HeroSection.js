@@ -12,7 +12,7 @@ function HeroSection() {
       </video>
       <h1>LIFE COACHING</h1>
       <p>with</p>
-      <h2>Katherine Metzger</h2>
+      <h2>William Smith</h2>
       <h3>Certified High Performance Coach</h3>
       <div className="hero-btns">
         <Button

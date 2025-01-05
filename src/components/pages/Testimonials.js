@@ -18,22 +18,20 @@ export default class Testimonials extends Component {
         >
           <div className="carousel">
             <div className="myCarousel">
-              <h3>Shirley Fultz</h3>
-              <h4>Designer</h4>
+              <h3>Tobi Omorubore</h3>
+              <h4>An Engineer</h4>
               <p>
-                It's freeing to be able to catch up on customized news and not be
-                distracted by a social media element on the same site
+              Transformed my perspective, inspiring clarity and compassion in both my personal and professional life.
             </p>
             </div>
           </div>
 
           <div>
             <div className="myCarousel">
-              <h3>Daniel Keystone</h3>
-              <h4>Designer</h4>
+              <h3>Kloee Keystone</h3>
+              <h4>A Mother-of-Two</h4>
               <p>
-                The simple and intuitive design makes it easy for me use. I highly
-                recommend Fetch to my peers.
+                The simple and intuitive customized program & schedule makes me trust that WillHouse cares so much about people.
             </p>
             </div>
           </div>
@@ -41,10 +39,9 @@ export default class Testimonials extends Component {
           <div>
             <div className="myCarousel">
               <h3>Theo Sorel</h3>
-              <h4>Designer</h4>
+              <h4>Doctrine Researcher</h4>
               <p>
-                I enjoy catching up with Fetch on my laptop, or on my phone when
-                I'm on the go!
+              Offered well-researched perspectives that deepen understanding and encourage critical thinking. Thank you William!
             </p>
             </div>
           </div>
