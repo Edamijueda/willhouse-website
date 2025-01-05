@@ -12,22 +12,18 @@ import UserForm from './components/questionnaire/UserForm';
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar />
-        <div className="app">
-          <Routes>
+    <Router>
+      <Navbar />
+      <Routes>
             <Route path='/' exact element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/coachingProgram' element={<CoachingProgram />} />
             <Route path='/testimonials' element={<Testimonials />} />
             <Route path='/sign-up' element={<SignUp />} />
             <Route path='/questionnaire' element={<UserForm />} />
-          </Routes>
-          </div>
-        <Footer />
-      </Router>
-    </>
+      </Routes>  
+      <Footer />
+    </Router>
   );
 }
 
