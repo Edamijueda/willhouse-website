@@ -66,6 +66,16 @@ function Navbar() {
                 Testimonials
               </Link>
             </li>
+            <li className='nav-item'>
+              <a
+                href="https://books2read.com/WillHousePublishing"
+                className='nav-links'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Books
+              </a>
+            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline' onClick={executeScroll}>SIGN UP</Button>}
         </div>
